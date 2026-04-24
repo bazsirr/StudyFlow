@@ -1,0 +1,84 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    background: #0a0c10;
+    color: white;
+}
+
+.luxury-bg {
+    background: radial-gradient(circle at top, #111827, #0a0c10);
+}
+
+.glass-container {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    height: 100vh;
+}
+
+.sidebar {
+    background: rgba(255,255,255,0.05);
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.logo-icon {
+    background: #3b82f6;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.nav-item {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    background: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-item.active {
+    background: #3b82f6;
+    border-radius: 8px;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.stat-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+
+.stat-card {
+    background: rgba(255,255,255,0.05);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.dashboard-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.glass-card {
+    background: rgba(255,255,255,0.05);
+    padding: 15px;
+    border-radius: 12px;
+}
+
+input, button {
+    width: 100%;
+    margin-top: 8px;
+    padding: 8px;
+}
