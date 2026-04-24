@@ -36,3 +36,4 @@ https://bazsirr.github.io/StudyFlow/
 
 <img width="1919" height="907" alt="image" src="https://github.com/user-attachments/assets/63f52c71-25ec-46ff-87a5-7e715b069875" />
 
+BAZSÁNT DOMINIK, NEPTUN KÓD: R3F30S
