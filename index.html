@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>StudyFlow | Learning Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="luxury-bg">
+
+<div class="glass-container">
+
+<!-- SIDEBAR -->
+<aside class="sidebar">
+    <div class="logo">
+        <div class="logo-icon">S</div>
+        <h2>StudyFlow</h2>
+    </div>
+
+    <nav>
+        <button class="nav-item active" onclick="showTab('dashboard')">Dashboard</button>
+        <button class="nav-item" onclick="showTab('analytics')">Analytics</button>
+        <button class="nav-item" onclick="showTab('account')">Account</button>
+    </nav>
+
+    <button class="demo-btn-sidebar" onclick="loadDemo()">✨ Load Demo</button>
+</aside>
+
+<!-- MAIN -->
+<main class="main-content">
+
+<header class="top-bar">
+    <h1>Learning Overview</h1>
+    <div class="top-actions">
+        <button class="theme-btn" onclick="toggleTheme()">🌓</button>
+        <div class="date-display">April 2026</div>
+    </div>
+</header>
+
+<!-- DASHBOARD -->
+<section id="dashboard" class="tab active">
+
+<div class="stat-grid">
+    <div class="stat-card total">
+        <span class="label">Total Study Time</span>
+        <h2 id="total-time">0 min</h2>
+    </div>
+
+    <div class="stat-card income">
+        <span class="label">Subjects</span>
+        <h2 id="subject-count">0</h2>
+    </div>
+
+    <div class="stat-card expense">
+        <span class="label">Sessions</span>
+        <h2 id="session-count">0</h2>
+    </div>
+</div>
+
+<div class="dashboard-body">
+
+<!-- ADD SESSION -->
+<div class="glass-card">
+    <h3>Add Study Session</h3>
+
+    <input id="subject" placeholder="Subject">
+    <input id="minutes" type="number" placeholder="Minutes">
+    <input id="note" placeholder="Note">
+
+    <button onclick="addSession()">Save</button>
+</div>
+
+<!-- LIST -->
+<div class="glass-card">
+    <h3>Sessions</h3>
+    <div id="session-list"></div>
+</div>
+
+</div>
+
+</section>
+
+<!-- ANALYTICS -->
+<section id="analytics" class="tab">
+
+<div class="glass-card">
+    <h3>Study Distribution</h3>
+    <div id="analytics"></div>
+</div>
+
+</section>
+
+<!-- ACCOUNT -->
+<section id="account" class="tab">
+
+<div class="glass-card">
+    <h2>Student Profile</h2>
+    <p>ID: 1259278462</p>
+</div>
+
+</section>
+
+</main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
