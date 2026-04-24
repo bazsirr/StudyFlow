@@ -31,3 +31,6 @@ Placeholder for future personalization features
 Glassmorphism-inspired design
 Dark theme with soft gradients
 Responsive layout for desktop usage
+
+<img width="1919" height="907" alt="image" src="https://github.com/user-attachments/assets/63f52c71-25ec-46ff-87a5-7e715b069875" />
+
