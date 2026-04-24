@@ -3,31 +3,31 @@ StudyFlow is a modern, minimalist learning dashboard designed to help students t
 The goal of the project is to make studying more measurable, consistent, and motivating by providing a clean and intuitive interface for tracking academic effort.
 
 
-✨ Features
-📊 Dashboard Overview
+ Features:
+ Dashboard Overview
 Displays total study time in minutes
 Tracks number of study sessions
 Shows number of active subjects
 
 
-📝 Study Session Tracking
+ Study Session Tracking
 Add study sessions with subject, duration, and notes
 Automatically stores data in the browser (localStorage)
 Instant updates without page reload
 
 
-📈 Analytics View
+ Analytics View
 Aggregates study time by subject
 Visualizes learning distribution
 Helps identify focus areas and imbalances
 
 
-👤 Account Section
+ Account Section
 Simple user profile display
 Placeholder for future personalization features
 
 
-🎨 Modern UI
+ Modern UI
 Glassmorphism-inspired design
 Dark theme with soft gradients
 Responsive layout for desktop usage
